@@ -1,6 +1,6 @@
 # Micro Loaders
 
-[![Format, Analyze and Test](https://github.com/MicroClub-USTHB/flutter_loaders/actions/workflows/main.yml/badge.svg)](https://github.com/MicroClub-USTHB/flutter_loaders/actions/workflows/main.yml)
+[![Format, Analyze and Test](https://github.com/MicroClub-USTHB/micro_loaders/actions/workflows/main.yml/badge.svg)](https://github.com/MicroClub-USTHB/flutter_loaders/actions/workflows/main.yml)
 
 A collection of animated loaders with flutter made by [Micro Club - USTHB](https://github.com/MicroClub-USTHB).
 
@@ -55,169 +55,169 @@ Center (
 <table>
   <tr>
     <td align="center">
-      <img src="demos/CircleArc.gif" width="100px" height="100px"><br />
+      <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/CircleArc.gif" width="100px" height="100px"><br />
       CircleArc
     </td>
     <td align="center">
-      <img src="demos/CircleDots.gif" width="100px" height="100px"><br />
+      <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/CircleDots.gif" width="100px" height="100px"><br />
       CircleDots
     </td>
     <td align="center">
-      <img src="demos/CircleRotatingDots.gif" width="100px" height="100px"><br />
+      <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/CircleRotatingDots.gif" width="100px" height="100px"><br />
       CircleRotating
     </td>
     <td align="center">
-      <img src="demos/Circles.gif" width="100px" height="100px"><br />
+      <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/Circles.gif" width="100px" height="100px"><br />
       Circles
     </td>
     <td align="center">
-      <img src="demos/CircularOrbit.gif" width="100px" height="100px"><br />
+      <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/CircularOrbit.gif" width="100px" height="100px"><br />
       CircularOrbit
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="demos/ColorfulDots.gif" width="100px" height="100px"><br />
+      <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/ColorfulDots.gif" width="100px" height="100px"><br />
       ColorfulDots
     </td>
     <td align="center">
-      <img src="demos/CrlMug.gif" width="100px" height="100px"><br />
+      <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/CrlMug.gif" width="100px" height="100px"><br />
       CrlMug
     </td>
     <td align="center">
-      <img src="demos/Dots.gif" width="100px" height="100px"><br />
+      <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/Dots.gif" width="100px" height="100px"><br />
       Dots
     </td>
     <td align="center">
-      <img src="demos/DotsProgress.gif" width="100px" height="100px"><br />
+      <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/DotsProgress.gif" width="100px" height="100px"><br />
       DotsProgress
     </td>
     <td align="center">
-      <img src="demos/DualDots.gif" width="100px" height="100px"><br />
+      <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/DualDots.gif" width="100px" height="100px"><br />
       DualDots
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="demos/DualRotatingExpandingArc.gif" width="100px" height="100px"><br />
+      <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/DualRotatingExpandingArc.gif" width="100px" height="100px"><br />
       DualRotating
     </td>
     <td align="center">
-      <img src="demos/Edge.gif" width="100px" height="100px"><br />
+      <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/Edge.gif" width="100px" height="100px"><br />
       Edge
     </td>
     <td align="center">
-      <img src="demos/ExpandedDualArc.gif" width="100px" height="100px"><br />
+      <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/ExpandedDualArc.gif" width="100px" height="100px"><br />
       ExpandedDual
     </td>
     <td align="center">
-      <img src="demos/ExpandingArc.gif" width="100px" height="100px"><br />
+      <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/ExpandingArc.gif" width="100px" height="100px"><br />
       ExpandingArc
     </td>
     <td align="center">
-      <img src="demos/ExpandingTwoHalvesArc.gif" width="100px" height="100px"><br />
+      <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/ExpandingTwoHalvesArc.gif" width="100px" height="100px"><br />
       ExpandingHalves
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="demos/Explosion.gif" width="100px" height="100px"><br />
+      <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/Explosion.gif" width="100px" height="100px"><br />
       Explosion
     </td>
     <td align="center">
-      <img src="demos/FadeScale.gif" width="100px" height="100px"><br />
+      <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/FadeScale.gif" width="100px" height="100px"><br />
       FadeScale
     </td>
     <td align="center">
-      <img src="demos/FileDownload.gif" width="100px" height="100px"><br />
+      <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/FileDownload.gif" width="100px" height="100px"><br />
       FileDownload
     </td>
     <td align="center">
-      <img src="demos/Flowers.gif" width="100px" height="100px"><br />
+      <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/Flowers.gif" width="100px" height="100px"><br />
       Flowers
     </td>
     <td align="center">
-      <img src="demos/FourDots.gif" width="100px" height="100px"><br />
+      <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/FourDots.gif" width="100px" height="100px"><br />
       FourDots
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="demos/GrowingArc.gif" width="100px" height="100px"><br />
+      <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/GrowingArc.gif" width="100px" height="100px"><br />
       GrowingArc
     </td>
     <td align="center">
-      <img src="demos/Pendulum.gif" width="100px" height="100px"><br />
+      <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/Pendulum.gif" width="100px" height="100px"><br />
       Pendulum
     </td>
     <td align="center">
-      <img src="demos/Points.gif" width="100px" height="100px"><br />
+      <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/Points.gif" width="100px" height="100px"><br />
       Points
     </td>
     <td align="center">
-      <img src="demos/Progress.gif" width="100px" height="100px"><br />
+      <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/Progress.gif" width="100px" height="100px"><br />
       Progress
     </td>
     <td align="center">
-      <img src="demos/PulseRing.gif" width="100px" height="100px"><br />
+      <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/PulseRing.gif" width="100px" height="100px"><br />
       PulseRing
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="demos/Rotating.gif" width="100px" height="100px"><br />
+      <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/Rotating.gif" width="100px" height="100px"><br />
       Rotating
     </td>
     <td align="center">
-      <img src="demos/RotatingArc.gif" width="100px" height="100px"><br />
+      <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/RotatingArc.gif" width="100px" height="100px"><br />
       RotatingArc
     </td>
     <td align="center">
-      <img src="demos/RotatingDual.gif" width="100px" height="100px"><br />
+      <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/RotatingDual.gif" width="100px" height="100px"><br />
       RotatingDual
     </td>
     <td align="center">
-      <img src="demos/RotatingTwoArc.gif" width="100px" height="100px"><br />
+      <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/RotatingTwoArc.gif" width="100px" height="100px"><br />
       RotatingTwoArc
     </td>
     <td align="center">
-      <img src="demos/ScaleDots.gif" width="100px" height="100px"><br />
+      <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/ScaleDots.gif" width="100px" height="100px"><br />
       ScaleDots
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="demos/SlidingDots.gif" width="100px" height="100px"><br />
+      <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/SlidingDots.gif" width="100px" height="100px"><br />
       SlidingDots
     </td>
     <td align="center">
-      <img src="demos/SlidingSquare.gif" width="100px" height="100px"><br />
+      <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/SlidingSquare.gif" width="100px" height="100px"><br />
       SlidingSquare
     </td>
     <td align="center">
-      <img src="demos/Spinning.gif" width="100px" height="100px"><br />
+      <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/Spinning.gif" width="100px" height="100px"><br />
       Spinning
     </td>
     <td align="center">
-      <img src="demos/SpinningBars.gif" width="100px" height="100px"><br />
+      <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/SpinningBars.gif" width="100px" height="100px"><br />
       SpinningBars
     </td>
     <td align="center">
-      <img src="demos/Spiral.gif" width="100px" height="100px"><br />
+      <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/Spiral.gif" width="100px" height="100px"><br />
       Spiral
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="demos/Sun.gif" width="100px" height="100px"><br />
+      <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/Sun.gif" width="100px" height="100px"><br />
       Sun
     </td>
     <td align="center">
-      <img src="demos/Sunchine.gif" width="100px" height="100px"><br />
-      Sunchine
+      <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/Sunchine.gif" width="100px" height="100px"><br />
+      Sunshine
     </td>
     <td align="center">
-      <img src="demos/Text.gif" width="100px" height="100px"><br />
+      <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/Text.gif" width="100px" height="100px"><br />
       Text
     </td>
   </tr>
