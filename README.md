@@ -12,7 +12,7 @@ Micro Club is a scientific club established in 1985 at USTHB. It is the first Al
 
 ```yaml
 dependencies:
-  micro_loaders: ^0.0.1
+  micro_loaders: ^0.0.2
 ```
 
 ### Import
