@@ -13,27 +13,23 @@ class App extends StatelessWidget {
       title: 'Micro Loaders',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(brightness: Brightness.dark),
-      home:  MyWebApp(),
+      home: MyWebApp(),
     );
   }
 }
 
-
-
-
 class MyWebApp extends StatelessWidget {
-   MyWebApp({super.key});
+  MyWebApp({super.key});
 
-
-
-final loaders = <Widget> [
+  final loaders = <Widget>[
     const CircleDotsLoader(color: Colors.white, size: 50),
     const CirclesLoader(color: Colors.white, size: 50),
     const CircularOrbitLoader(size: 50, color: Colors.white),
     const CrlMugLoader(size: 50),
     const DotsLoaderView(dotSize: 5, dotColor: Colors.white),
     const DotsProgressLoader(secondColor: Colors.white, size: 5),
-    const FileDownloadLoader(totalSize: 500, downloadSpeed: 5, color: Colors.white, size: 50),
+    const FileDownloadLoader(
+        totalSize: 500, downloadSpeed: 5, color: Colors.white, size: 50),
     const DualRotatingExpandingArcLoader(outerColor: Colors.white, size: 50),
     const DualExpandingArcLoader(outerColor: Colors.white, size: 50),
     const ExpandingArcLoader(color: Colors.white, size: 50),
@@ -65,7 +61,6 @@ final loaders = <Widget> [
     const SunLoader(size: 25, color: Colors.white),
     const SunshineLoader(size: 25, color: Colors.white),
   ];
-
 
   @override
   Widget build(BuildContext context) {

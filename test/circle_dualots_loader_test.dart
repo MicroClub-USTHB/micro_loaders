@@ -5,7 +5,7 @@ import 'package:micro_loaders/widgets/dual_dot_loader.dart';
 
 void main() {
   group('CircleDualDotsLoader Tests', () {
-    testWidgets("CircleDualDotsLoader displays correctly",
+    testWidgets('CircleDualDotsLoader displays correctly',
         (WidgetTester tester) async {
       await tester.pumpWidget(const MaterialApp(
         home: CircleDualDotsLoader(
@@ -20,7 +20,7 @@ void main() {
       expect(find.byType(CircleDualDotsLoader), findsOneWidget);
     });
 
-    testWidgets("CircleDualDotsLoader throws error when size is negative",
+    testWidgets('CircleDualDotsLoader throws error when size is negative',
         (WidgetTester tester) async {
       expect(() {
         CircleDualDotsLoader(
@@ -33,7 +33,7 @@ void main() {
       }, throwsAssertionError);
     });
 
-    testWidgets("CircleDualDotsLoader throws error when dotSize is negative",
+    testWidgets('CircleDualDotsLoader throws error when dotSize is negative',
         (WidgetTester tester) async {
       expect(() {
         CircleDualDotsLoader(

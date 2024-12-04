@@ -1,7 +1,8 @@
 name: micro_loaders
 description: "A collection of animated loaders with flutter made by micro club"
-version: 0.0.2
-homepage:
+version: 0.0.3
+homepage: https://github.com/MicroClub-USTHB/micro_loaders
+
 
 environment:
   sdk: ^3.5.4
