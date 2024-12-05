@@ -26,7 +26,7 @@ Add the following to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  micro_loaders: ^0.0.3
+  micro_loaders: ^0.0.4
 ```
 Then run:
 
@@ -49,6 +49,11 @@ import 'package:micro_loaders/micro_loaders.dart';
 ```
 
 ## Loader Gallery
+
+## Web Demo
+[Demo](https://loaders.microclub.info/)
+
+## Gallery of Loaders
 
 <table style="width: 100%; border-collapse: collapse; text-align: center;">
   <tr>
@@ -285,9 +290,9 @@ FileDownloadLoader(
 
 
 ## Resources
-[Flutter Official Documentation](https://docs.flutter.dev/)
-[Packages](https://pub.dev/)
-[Flutter Community](https://flutter.dev/community)
+- [Flutter Official Documentation](https://docs.flutter.dev/)
+- [Packages](https://pub.dev/)
+- [Flutter Community](https://flutter.dev/community)
 
 
 
