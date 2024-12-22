@@ -115,8 +115,7 @@ class FileDownloadPainter extends CustomPainter {
 
     paint.color = color;
 
-    canvas.drawLine(
-        const Offset(0, 0), Offset(size.width * progress, 0), paint);
+    canvas.drawLine(const Offset(0, 0), Offset(size.width * progress, 0), paint);
   }
 
   @override

@@ -131,7 +131,7 @@ import 'package:micro_loaders/micro_loaders.dart';
   <tr>
     <td>
       <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/ExpandingTwpHalves.gif" alt="ExpandingTwpHalves" />
-      <div style="font-weight: bold;">ExpandingTwpHalves</div>
+      <div style="font-weight: bold;">ExpandingTwoHalves</div>
     </td>
     <td>
       <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/Explosion.gif" alt="Explosion" />
@@ -207,7 +207,7 @@ import 'package:micro_loaders/micro_loaders.dart';
     </td>
     <td>
       <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/Spininng.gif" alt="Spininng" />
-      <div style="font-weight: bold;">Spininng</div>
+      <div style="font-weight: bold;">Spinning</div>
     </td>
     <td>
       <img src="https://raw.githubusercontent.com/MicroClub-USTHB/micro_loaders/refs/heads/main/demos/SpinningBars.gif" alt="SpinningBars" />
