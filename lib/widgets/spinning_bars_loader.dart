@@ -89,7 +89,7 @@ class _SpinningBarsLoaderState extends State<SpinningBarsLoader> with SingleTick
                       width: 4,
                       height: widget.barHeight,
                       decoration: BoxDecoration(
-                        color: widget.color.withOpacity(opacity),
+                        color: widget.color.withValues(alpha: opacity),
                         borderRadius: BorderRadius.circular(2),
                       ),
                     ),

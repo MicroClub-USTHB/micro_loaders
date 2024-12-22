@@ -82,7 +82,7 @@ class _FlowerLoaderState extends State<FlowerLoader> with SingleTickerProviderSt
             width: radius,
             height: radius,
             decoration: BoxDecoration(
-              color: widget.color.withOpacity(0.5),
+              color: widget.color.withValues(alpha: 0.5),
               shape: BoxShape.circle,
             ),
           ),

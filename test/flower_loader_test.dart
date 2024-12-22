@@ -64,7 +64,9 @@ void main() {
       final coloredContainer =
           tester.widget<Container>(find.byType(Container).first);
       final decoration = coloredContainer.decoration as BoxDecoration;
-      expect(decoration.color, testColor.withOpacity(0.5));
+      expect(decoration.color, testColor.withValues(
+        alpha: 0.5
+      ));
     });
 
     testWidgets('FlowerLoader animates correctly', (WidgetTester tester) async {
