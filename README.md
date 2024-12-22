@@ -26,7 +26,7 @@ Add the following to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  micro_loaders: ^0.0.4
+  micro_loaders: ^0.0.5
 ```
 Then run:
 
