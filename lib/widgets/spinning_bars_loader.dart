@@ -24,7 +24,11 @@ import 'package:flutter/material.dart';
 
 class SpinningBarsLoader extends StatefulWidget {
   const SpinningBarsLoader(
-      {super.key, this.size = 50, this.barHeight = 14, this.color = Colors.white, this.duration = 1})
+      {super.key,
+      this.size = 50,
+      this.barHeight = 14,
+      this.color = Colors.white,
+      this.duration = 1})
       : assert(size > 0 && barHeight > 0 && barHeight < size && duration > 0,
             'Size must be greater than 0, bar height must be greater than 0 and less than size, and duration must be greater than 0.');
 
@@ -37,7 +41,8 @@ class SpinningBarsLoader extends StatefulWidget {
   State<SpinningBarsLoader> createState() => _SpinningBarsLoaderState();
 }
 
-class _SpinningBarsLoaderState extends State<SpinningBarsLoader> with SingleTickerProviderStateMixin {
+class _SpinningBarsLoaderState extends State<SpinningBarsLoader>
+    with SingleTickerProviderStateMixin {
   late final AnimationController _controller;
 
   @override
@@ -89,7 +94,7 @@ class _SpinningBarsLoaderState extends State<SpinningBarsLoader> with SingleTick
                       width: 4,
                       height: widget.barHeight,
                       decoration: BoxDecoration(
-                        color: widget.color.withOpacity(opacity),
+                        color: widget.color.withValues(alpha: opacity),
                         borderRadius: BorderRadius.circular(2),
                       ),
                     ),

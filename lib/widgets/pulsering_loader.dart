@@ -26,7 +26,10 @@ import 'package:flutter/material.dart';
 
 class PulseRingLoader extends StatefulWidget {
   const PulseRingLoader(
-      {super.key, this.size = 20, this.color = Colors.blueAccent, this.duration = const Duration(seconds: 1)})
+      {super.key,
+      this.size = 20,
+      this.color = Colors.blueAccent,
+      this.duration = const Duration(seconds: 1)})
       : assert(size > 0, 'Size must be greater than zero.');
 
   final double size;
@@ -37,13 +40,15 @@ class PulseRingLoader extends StatefulWidget {
   _PulseRingLoaderState createState() => _PulseRingLoaderState();
 }
 
-class _PulseRingLoaderState extends State<PulseRingLoader> with SingleTickerProviderStateMixin {
+class _PulseRingLoaderState extends State<PulseRingLoader>
+    with SingleTickerProviderStateMixin {
   late AnimationController _controller;
   double get size => widget.size;
   @override
   void initState() {
     super.initState();
-    _controller = AnimationController(vsync: this, duration: widget.duration)..repeat(reverse: false);
+    _controller = AnimationController(vsync: this, duration: widget.duration)
+      ..repeat(reverse: false);
   }
 
   @override
@@ -60,7 +65,8 @@ class _PulseRingLoaderState extends State<PulseRingLoader> with SingleTickerProv
           height: size,
           width: size,
           child: CustomPaint(
-            painter: CustomCircularLoader(controller: _controller, color: widget.color),
+            painter: CustomCircularLoader(
+                controller: _controller, color: widget.color),
           )),
     );
   }
@@ -88,15 +94,15 @@ class CustomCircularLoader extends CustomPainter {
       endAngle: pi + (2 * pi),
       colors: [
         color,
-        color.withOpacity(0.9),
-        color.withOpacity(0.8),
-        color.withOpacity(0.7),
-        color.withOpacity(0.6),
-        color.withOpacity(0.5),
-        color.withOpacity(0.3),
-        color.withOpacity(0.2),
-        color.withOpacity(0.2),
-        color.withOpacity(0.1),
+        color.withValues(alpha: 0.9),
+        color.withValues(alpha: 0.8),
+        color.withValues(alpha: 0.7),
+        color.withValues(alpha: 0.6),
+        color.withValues(alpha: 0.5),
+        color.withValues(alpha: 0.3),
+        color.withValues(alpha: 0.2),
+        color.withValues(alpha: 0.2),
+        color.withValues(alpha: 0.1),
         const Color(0xffEAEFF5),
       ],
       stops: const [
@@ -120,14 +126,14 @@ class CustomCircularLoader extends CustomPainter {
         endAngle: 2 * pi,
         colors: [
           const Color(0xffEAEFF5),
-          const Color.fromRGBO(0, 0, 0, 1).withOpacity(0.1),
-          color.withOpacity(0.2),
-          color.withOpacity(0.4),
-          color.withOpacity(0.5),
-          color.withOpacity(0.6),
-          color.withOpacity(0.7),
-          color.withOpacity(0.8),
-          color.withOpacity(0.9),
+          const Color.fromRGBO(0, 0, 0, 1).withValues(alpha: 0.1),
+          color.withValues(alpha: 0.2),
+          color.withValues(alpha: 0.4),
+          color.withValues(alpha: 0.5),
+          color.withValues(alpha: 0.6),
+          color.withValues(alpha: 0.7),
+          color.withValues(alpha: 0.8),
+          color.withValues(alpha: 0.9),
         ],
         stops: const [
           0.0,
