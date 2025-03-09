@@ -282,7 +282,7 @@ FileDownloadLoader(
       <a href = "https://github.com/yasminezegaoui"><img  src="https://avatars.githubusercontent.com/u/165675540?v=4" width="72" alt="Zegaoui Yasmine" /></a>
     </td>
     <td align="center">
-      <a href = "https://github.com/ramzy1453"><img  src="https://media.licdn.com/dms/image/v2/D4E03AQHTotujK0-kBg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1710199237350?e=1737590400&v=beta&t=2TJNBWi9zdoFA2azJ7LsRxtAfD4apGHJDOya8CqZuKE" width="72" alt="Kemmoun Ramzy" /></a>
+      <a href = "https://github.com/ramzy1453"><img  src="https://avatars.githubusercontent.com/u/96486453?v=4" width="72" alt="Kemmoun Ramzy" /></a>
     </td>
 
   </tr> 
